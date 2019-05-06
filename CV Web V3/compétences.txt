@@ -1,0 +1,30 @@
+            <div class="container competences">
+                <div class="columns">
+                    <div class="column competences-single-element">
+                        <h2 class="subtitle">Programmation  <i class="fas fa-code"></i></h2>
+                        <p>C++</p>
+                        <p>Qt</p>
+                        <p>HTML</p>
+                        <p>CSS</p>
+                        <p>JQuery</p>
+                        <p>Ajax</p>
+                        <p>PHP</p>
+                        <p>Laravel</p>
+                        <p>Bulma.io</p>
+                        <p>MySQL</p>
+                        <p>PHPMyAdmin</p>
+                        <p>PyGame</p>
+                        <p>XML</p>
+                    </div>
+                    <div class="column competences-single-element">
+                        <h2 class="subtitle">Compétences et logiciels maîtrisés <i class="fas fa-laptop-code"></i></h2>
+                        <p>Anglais niveau C1 (en voie d'acquisition)</p>
+                        <p>Espagnol niveau B1</p>
+                        <p>Visual Studio Code</p>
+                        <p>Sony Vegas Pro 15</p>
+                        <p>Gimp 2.8</p>
+                        <p>Audacity 2.1.0</p>
+                        <p>OBS Streamlabs</p>
+                    </div>
+                </div>
+            </div>

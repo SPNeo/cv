@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <!--CSS-->
+        <link rel="stylesheet" href="css/main.css">
+        <!--JavaScript-->
+        <link href="js/main.js">
+        <!--Jquery-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <!--Bulma-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+        <!--Police-->
+        <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet"> 
+        <!--Icônes-->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+        <title>Sami Pillac, étudiant en développement web</title>
+    </head>
+    <body>
+        <!--Header-->
+        <div class="block">
+            <header class="header header-cv">
+                <nav class="header-menu">
+                    <a href="index.html">Accueil</a>
+                    <a href="cv.html">CV</a>
+                    <a href="loisirs.html">Mes loisirs</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
+                <nav class="header-langue">
+                    <nav class="francais">
+                        <a href="contact.html"><img src="images/france.png" title="Voir le site en français"></a>
+                    </nav>
+                    <nav class="anglais">
+                        <a href=contacten.html><img src="images/anglais.png" title="Go to the English version"></a>
+                    </nav>
+                </nav>
+            </header>
+        </div>
+        <!--Header-->
+        <!--Title-->
+        <div class="block banner">
+          <img src="images/banner-contact.jpg" class="banner-image">
+          <div class="banner-content-contact">
+            <h1 class="title is-3">Une question? Un projet?</h1>
+            <h1 class="title is-3">Faites-m'en part!</h1>
+          </div>
+        <!--Title-->
+        <!--Formulaire-->
+        <div class="block container form-contact">
+          <form action="php/traitement_formulaire.php" method="POST">
+            <div class="field is-horizontal">
+                <div class="field-label is-normal">
+                  <label class="label">Nom</label>
+                </div>
+                <div class="field-body">
+                  <div class="field">
+                    <p class="control is-expanded has-icons-left">
+                      <input class="input" type="text" placeholder="Nom" name="nom" id='nom'>
+                      <span class="icon is-small is-left">
+                        <i class="fas fa-user"></i>
+                      </span>
+                    </p>
+                  </div>
+                  <div class="field-label is-normal">
+                    <label class="label">Prénom</label>
+                  </div>
+                  <div class="field">
+                    <p class="control is-expanded has-icons-left">
+                      <input class="input" type="text" placeholder="Prénom" name="prenom" id='prenom'>
+                      <span class="icon is-small is-left">
+                        <i class="fas fa-user"></i>
+                      </span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="field is-horizontal">
+                <div class="field-label is-normal">
+                  <label class="label">Adresse mail</label>
+                </div>
+                <div class="field-body">
+                  <p class="control is-expanded has-icons-left has-icons-right">
+                    <input class="input" type="email" placeholder="Email"name="email" id='email'>
+                    <span class="icon is-small is-left">
+                      <i class="fas fa-envelope"></i>
+                    </span>
+                  </p>
+                </div>
+              </div>
+              
+              <div class="field is-horizontal">
+                <div class="field-label is-normal">
+                  <label class="label">Sujet</label>
+                </div>
+                <div class="field-body">
+                  <p class="control">
+                    <input class="input" type="text" placeholder="Votre sujet" name="sujet" id='sujet'>
+                  </p>
+                </div>
+              </div>
+              
+              <div class="field is-horizontal">
+                <div class="field-label is-normal">
+                  <label class="label">Votre message :</label>
+                </div>
+                <div class="field-body">
+                  <div class="field">
+                    <div class="control">
+                      <textarea class="textarea" placeholder="Saisissez votre message ici" name="message" id='message'></textarea>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="field is-horizontal">
+                <div class="field-label">
+                  <!-- Left empty for spacing -->
+                </div>
+                <div class="field-body">
+                  <div class="field">
+                    <div class="control">
+                      <button class="button is-link is-normal" id="envoyer">
+                        Envoyer
+                      </button>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </form>
+        </div>
+      </div>
+        <!--Formulaire-->
+        <!--Footer-->
+        <div class="block footer">
+            <a class="linkfooter" href="https://github.com/SPNeo">GitHub</a>
+            <i class="fab fa-github"></i>
+            <a class="linkfooter" href="https://www.linkedin.com/in/sami-corentin-pillac-a9048014b/">Linkedin</a>
+            <i class="fab fa-linkedin"></i>
+            <p class="linkfooter">Photo by NASA on Unsplash</p>
+        </div>
+        <!--Footer-->
+    </body>
+</html>

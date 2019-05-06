@@ -1,0 +1,347 @@
+html{
+font-family: 'Titillium Web', sans-serif;
+}
+
+/*
+HEADER
+*/
+
+.header{
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    height: 70px;
+    line-height: 70px;
+    background-color: rgb(27, 56, 61, 0.7);
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+
+.header-cv{
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    height: 70px;
+    line-height: 70px;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+
+.header a{
+    color:#FFFFFF;
+    margin-right: 15px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+}
+
+.header a:hover{
+    color: #3498db;
+}
+.header .header-menu{
+    float: left;
+    margin-left: 2%;
+}
+.header .header-langue{
+    float: right;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+.header .header-langue .francais{
+    height: 20px;
+    width: 40px;
+    float: left;
+    margin-right: 10px;
+}
+
+header .header-langue .anglais{
+    height: 20px;
+    width: 40px;
+    float: right;
+}
+
+/*
+MODAL
+*/
+
+#popup .popup-contenu{
+    top: 35%;
+}
+
+/*
+BANNER
+*/
+
+.banner{
+    margin-top: -25px;
+}
+
+.banner .banner-image{
+    position: relative;
+}
+
+.banner .banner-content{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 30%;
+}
+
+.banner .banner-content h1{
+    color: #FFFFFF;
+}
+
+.banner .banner-content .subtitle{
+    color: #FFFFFF;
+}
+
+.banner .banner-content-cv{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 15%;
+}
+
+.banner .banner-content-cv h1{
+    color: #FFFFFF;
+}
+
+.banner h2{
+    text-align: center;
+}
+
+.banner .etudes-single-element h2{
+    text-align: center;
+    font-weight: bold;
+}
+
+.banner .competences .programmation{
+    margin-bottom: 2%;
+}
+
+.banner .competences .competences2{
+    margin-bottom: 2%;
+}
+
+.banner .etudes{
+    margin-top: 2%;
+}
+
+.banner .competences-single-element{
+    text-align: center;
+    font-weight: bold;
+}
+
+.banner .competences-single-element h2{
+    text-align: center;
+    font-weight: bold;
+}
+
+.banner .etudes-single-element p{
+    text-align: justify;
+}
+
+.banner .competences-single-element p{
+    text-align: center;
+}
+
+.projetsweb .projetsweb-single-element{
+    padding: 2%;
+}
+.banner .projetsweb h2{
+    text-align: center;
+    font-weight: bold;
+}
+.banner .projetsweb p{
+    text-align: center;
+    font-style: italic;
+}
+
+.banner{
+    background-color: #ecf0f1;
+}
+
+
+.banner .banner-content-contact{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 15%;
+}
+
+.banner .banner-content-contact h1{
+    color: #FFFFFF;
+}
+
+.banner .form-contact{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 40%;
+}
+
+.banner .form-contact .label{
+    color: #FFFFFF;
+}
+
+.banner .form-contact button{
+    display: block;
+    margin: 0 auto;
+}
+
+.banner .intro{
+    padding: 3%;
+}
+.banner .intro p{
+    text-align: center;
+}
+
+.banner .intro h3{
+    text-align: center;
+    font-weight: bold;
+}
+
+/*
+REDIRECTS LOISIRS
+*/
+
+.banner .redirect-flip{
+    margin-top: -30px;
+}
+
+.banner .redirect-flip .back p{
+    color:#FFFFFF;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 130%;
+    font-weight:bold;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 40%;
+}
+
+.banner .redirect-flip .back a{
+    position: absolute;
+    top: 50%;
+}
+
+/*
+IMAGES CV
+*/
+.banner .competences .cpp{
+    width: 65%;
+}
+
+.banner .competences .qt{
+    width: 75%;
+}
+
+.banner .competences .html{
+    width: 80%;
+}
+
+.banner .competences .css{
+    width: 57%;
+}
+
+.banner .competences .jquery{
+    width: 75%;
+}
+
+.banner .competences .ajax{
+    width: 85%;
+}
+
+.banner .competences .php{
+    width: 80%;
+}
+
+.banner .competences .laravel{
+    width: 65%;
+}
+
+.banner .competences .bulma{
+    width: 100%;
+}
+
+.banner .competences .mysql{
+    width: 90%;
+}
+
+.banner .competences .phpmyadmin{
+    width: 90%;
+}
+
+.banner .competences .xml{
+    width: 80%;
+}
+
+.banner .competences .anglais{
+    width: 60%;
+}
+
+.banner .competences .espagnol{
+    width: 60%;
+}
+
+.banner .competences .vscode{
+    width: 45%;
+}
+
+.banner .competences .vegaspro{
+    width: 40%;
+}
+
+.banner .competences .gimp{
+    width: 40%;
+}
+
+.banner .competences .visualparadigm{
+    width: 35%;
+}
+
+.banner .competences .streamlabs{
+    width: 35%;
+}
+
+.banner .competences .permis{
+    width: 45%;
+}
+
+.banner .competences-single-element p{
+    text-align: center;
+}
+
+.banner .competences-single-element{
+    margin: auto;
+}
+
+/*
+LOISIRS
+*/
+
+.banner .banner-content-loisirs h1{
+    color: #FFFFFF;
+    top: 15%;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+/*
+FOOTER
+*/
+
+.linkfooter{
+    color:#2c2c31;
+}
+
+.footer a:hover{
+    color: #3498db;
+}
+
+.footer{
+    text-align: center;
+    margin-top: -30px;
+}
